@@ -1,4 +1,4 @@
-﻿cm-ui-rmc14 = RMC14
+cm-ui-rmc14 = RMC14
 cm-ui-audio-voicelines-arachnid = Play voicelines for arachnids
 cm-ui-audio-voicelines-diona = Play voicelines for dionae
 cm-ui-audio-voicelines-dwarf = Play voicelines for dwarves
@@ -65,3 +65,5 @@ rmc-ui-damage-yourself = Enable being able to hurt yourself with melee and guns
 
 rmc-tacmap-alert-area = Current Area: {$area}
 rmc-tacmap-alert-no-area = Unknown
+
+rmc-ui-audio-hijack-music = Hijack Music

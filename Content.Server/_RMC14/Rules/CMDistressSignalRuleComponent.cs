@@ -1,4 +1,4 @@
-﻿using Content.Shared._RMC14.Weapons.Ranged.IFF;
+using Content.Shared._RMC14.Weapons.Ranged.IFF;
 using Content.Shared.Radio;
 using Content.Shared.Roles;
 using Robust.Shared.Audio;
