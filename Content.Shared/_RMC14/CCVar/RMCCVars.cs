@@ -417,4 +417,10 @@ public sealed class RMCCVars : CVars
 
     public static readonly CVarDef<float> RMCOverwatchConsoleUpdateEverySeconds =
         CVarDef.Create("rmc.overwatch_console_update_every_seconds", 0.5f, CVar.REPLICATED | CVar.SERVER);
+
+    /// <summary>
+    /// controls hijack music volume
+    /// </summary>
+    public static readonly CVar<float> RMCHijackMusicVolume =
+        CVarDef.Create("rmc.hijack_music_volume", 1.5f, CVar.CLIENT | CVar.ARCHIVE)
 }
