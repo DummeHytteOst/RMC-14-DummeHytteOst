@@ -421,6 +421,6 @@ public sealed class RMCCVars : CVars
     /// <summary>
     /// controls hijack music volume
     /// </summary>
-    public static readonly CVar<float> RMCHijackMusicVolume =
+    public static readonly CVarDef<bool> RMCHijackMusicVolume =
         CVarDef.Create("rmc.hijack_music_volume", true, CVar.CLIENT | CVar.ARCHIVE);
 }

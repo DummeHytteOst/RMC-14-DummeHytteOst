@@ -57,13 +57,12 @@ public sealed partial class AudioTab : Control
             SliderMaxAmbienceSounds,
             _cfg.GetCVar(CCVars.MinMaxAmbientSourcesConfigured),
             _cfg.GetCVar(CCVars.MaxMaxAmbientSourcesConfigured));
-            RMCCVars.RMCHijackMusicVolume
 
         Control.AddOptionCheckBox(CCVars.LobbyMusicEnabled, LobbyMusicCheckBox);
         Control.AddOptionCheckBox(CCVars.RestartSoundsEnabled, RestartSoundsCheckBox);
         Control.AddOptionCheckBox(CCVars.EventMusicEnabled, EventMusicCheckBox);
         Control.AddOptionCheckBox(CCVars.AdminSoundsEnabled, AdminSoundsCheckBox);
-        Control.AddOptionCheckBox(RMCCVars.RMCHijackMusicVolume, RMCHijackMusic)
+        Control.AddOptionCheckBox(RMCCVars.RMCHijackMusicVolume, RMCHijackMusic);
         Control.AddOptionCheckBox(RMCCVars.CMPlayVoicelinesArachnid, CMVoicelinesArachnid);
         Control.AddOptionCheckBox(RMCCVars.CMPlayVoicelinesDiona, CMVoicelinesDiona);
         Control.AddOptionCheckBox(RMCCVars.CMPlayVoicelinesDwarf, CMVoicelinesDwarf);

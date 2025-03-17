@@ -736,7 +736,7 @@ public sealed class CMDistressSignalRuleSystem : GameRuleSystem<CMDistressSignal
         var rules = QueryActiveRules();
         while (rules.MoveNext(out _, out var rule, out _))
         {
-            if (rule.HijackSongPlayed || RMCCVars.RMCHijackMusicVolume = false)
+            if (rule.HijackSongPlayed || _config.GetCVar(RMCCVars.RMCHijackMusicVolume) == false)
                 break;
 
             rule.HijackSongPlayed = true;
